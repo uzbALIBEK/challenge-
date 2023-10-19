@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #141519;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .aylana {
+    width: 50px;
+    height: 50px;
+    padding: 17px;
+    border-radius: 50%;
+    background-color: #262f38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card,
+  .card_2 {
+    width: 415px;
+    height: 415px;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #222933 0%, #171e28 100%);
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .card_text h1 {
+    color: #fff;
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 34px 0 14px;
+  }
+  
+  .card_text p {
+    width: 328px;
+    height: 72px;
+    color: #7b818d;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 169.5%;
+    margin-bottom: 27px;
+  }
+  
+  .card_raqamlar {
+    display: flex;
+    column-gap: 21px;
+    margin-bottom: 31px;
+  }
+  
+  .card_raqamlar .raqam {
+    width: 53px;
+    height: 53px;
+  
+    background-color: #262f38;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #707883;
+  
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 169.5%;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    width: 342px;
+    height: 45px;
+  
+    border-radius: 32px;
+    background: #fc7613;
+    border: none;
+  
+    color: #fff;
+  
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 169.5%;
+    letter-spacing: 1.725px;
+  }
+  
+  .card_raqamlar .raqam:focus {
+    /* display: inline-block; */
+    background-color: #7e8798;
+    color: white;
+  }
+  .raqam:hover {
+    background-color: #fc7614;
+    color: white;
+  }
+  
+  button:focus {
+    background-color: #ffffff;
+    color: #fc7614;
+  }
+  
+  .card_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .card_2 img {
+    display: block;
+    margin: 0 auto 2rem;
+  }
+  
+  .card_2 p.yarim {
+    font-size: 0.9rem;
+    background-color: hsl(213, 20%, 22%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 30px;
+    padding: 0.2rem 0.5rem 0;
+    margin-bottom: 2rem;
+  }
+  
+  .card_2 h2 {
+    color: #fff;
+    margin-bottom: 1rem;
+    font-family: Inter;
+  }
+  
+  .card_2 p {
+    font-family: Inter;
+    max-width: 300px;
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 2rem;
+  }
+  
+  .och {
+    display: none;
+  }
+  
+  .attribution {
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    margin-top: 2rem;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
